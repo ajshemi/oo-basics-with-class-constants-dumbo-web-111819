@@ -12,7 +12,7 @@ class Shoe
     puts "Your shoe is as good as new!"
   end
   def brand=(value)
-    return unless BRANDS.include?(value)
+    #return unless BRANDS.include?(value)
     @brand=value
     BRANDS << value
   end
