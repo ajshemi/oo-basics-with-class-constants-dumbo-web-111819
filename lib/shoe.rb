@@ -15,5 +15,6 @@ class Shoe
     return unless BRANDS.include?(value)
     @brand=(value)
     BRANDS << value
+  end
 
 end
