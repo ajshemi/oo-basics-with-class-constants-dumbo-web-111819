@@ -14,6 +14,7 @@ class Book
   end
   def genre =(value)
     @genre=value
+    GENRES << genre
   end
 
 end
