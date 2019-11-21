@@ -3,7 +3,7 @@ class Book
   attr_reader :title
   attr_reader :genre
   
-  GENRES=[]
+  GENRES=[] #keep track of genre of all instances
 
   def initialize(title)
     @title = title
@@ -13,7 +13,7 @@ class Book
     puts "Flipping the page...wow, you read fast!"
   end
   
-  def genre=(value)
+  def genre=(value) #type of writer (setter?)
     @genre=value
     GENRES << value
   end
